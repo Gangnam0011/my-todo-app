@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { Todo } from "@/types/todo";
-import { fetchTodos } from "@/lib/api";
 import TodoInput from "@/components/TodoInput";
 import TodoList from "@/components/TodoList";
 
